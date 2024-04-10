@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "cross-browser-window-interaction",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosycolg/cross-browser-window-interaction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nosycolg/cross-browser-window-interaction/issues"
+  },
+  "homepage": "https://github.com/nosycolg/cross-browser-window-interaction#readme"
+}
