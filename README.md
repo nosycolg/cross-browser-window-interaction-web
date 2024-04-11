@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# Cross-Browser Window Interaction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple project where you can trigger a function in another browser window.
 
-Currently, two official plugins are available:
+![Cross-Browser Window Interaction Demo](https://github.com/nosycolg/cross-browser-window-interaction/assets/99344786/e0e8776a-3171-4942-be56-d61efe3a89bd)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run?
 
-## Expanding the ESLint configuration
+1. Make sure you are using the correct version of Node.js with nvm:
+    ```bash
+    nvm use
+    ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Install project dependencies:
+    ```bash
+    npm install
+    ```
 
-- Configure the top-level `parserOptions` property like this:
+## How to Start?
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+To start the project, run the following command:
+```bash
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This will start the development server, and you can access the application in your browser.
